@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>**POST**</title>
+  </head>
+  <body>
+    {% if text_inp %}
+      <h1>Entered text : {{ text_inp }}</h1>
+    {% else %}
+      <h1>Text required !!</h1>
+      <h1>Enter text : </h1>
+      <form action="/input" method="POST">
+        <input type="text" name="text_inp" placeholder="Enter required text here ">
+        <input type="submit" name="submit" value="Submit">
+      </form>
+    {% endif %}
+  </body>
+</html>
