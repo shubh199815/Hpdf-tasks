@@ -1,6 +1,6 @@
-# Hpdf-tasks
+# Flask Learning
 
-~This repository contains tasks that I have worked on during HPDF Week 1
+~This repository contains some basic API endpoints written using Flask.
 
 How to use:
 
